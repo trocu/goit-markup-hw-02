@@ -10,38 +10,92 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Studio</title>
+    <title>WebStudio</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./css/styles.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Header -->
     <header>
-      <a href="#">WebStudio</a>
+      <a
+        class="logo logo-hoover-focus"
+        href="index.html"
+        target="_self"
+        ><span class="logo-first-color">Web</span><span class="logo-blk-color">Studio</span></a
+      >
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="hidden-dot">
+          <li>
+            <a
+              class="link-nav"
+              href="#"
+              >Agencja</a
+            >
+          </li>
+          <li>
+            <a
+              class="link-nav"
+              href="portfolio.html"
+              target="_self"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              class="link-nav"
+              href="#"
+              >Kontakt</a
+            >
+          </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="hidden-dot">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a
+            class="link-contact"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a
+            class="link-contact"
+            href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
         </li>
       </ul>
     </header>
     <!-- Main content -->
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="grey-rectangle">
+        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button
+          class="main-button"
+          type="button"
+        >
+          Zamów usługe
+        </button>
       </section>
       <section>
-        <h2>Lorem ipsum dolor sit amet</h2>
-        <ul>
+        <h2 class="hidden-title">Lorem ipsum dolor sit amet</h2>
+        <ul class="main-txt hidden-dot">
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
@@ -73,8 +127,8 @@
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="section-title">Czym się zajmujemy</h2>
+        <ul class="hidden-dot">
           <li>
             <img
               src="./images/project1.jpg"
@@ -101,15 +155,15 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="about-us">
+        <h2 class="section-title">Nasz zespół</h2>
+        <ul class="hidden-dot about-us-box">
           <li>
             <img
               src="./images/team1.jpg"
               alt="Product Designer"
               width="270"
-              height="180"
+              height="260"
             />
             <h3>John Doe</h3>
             <p>Product Designer</p>
@@ -119,7 +173,7 @@
               src="./images/team2.jpg"
               alt="Frontend Developer"
               width="270"
-              height="180"
+              height="260"
             />
             <h3>John Doe</h3>
             <p>Frontend Developer</p>
@@ -129,7 +183,7 @@
               src="./images/team3.jpg"
               alt="Marketing"
               width="270"
-              height="180"
+              height="260"
             />
             <h3>John Doe</h3>
             <p>Marketing</p>
@@ -139,7 +193,7 @@
               src="./images/team4.jpg"
               alt="UI Designer"
               width="270"
-              height="180"
+              height="260"
             />
             <h3>John Doe</h3>
             <p>UI Designer</p>
@@ -149,11 +203,16 @@
     </main>
     <!-- Footer -->
     <footer>
-      <section>
-        <a href="#">WebStudio</a>
+      <section class="footer-box">
+        <a
+          class="logo-footer logo-hoover-focus"
+          href="index.html"
+          target="_self"
+          ><span class="logo-first-color">Web</span><span class="logo-wh-color">Studio</span></a
+        >
         <address>
           <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <ul>
+          <ul class="hidden-dot link-footer">
             <li>
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
