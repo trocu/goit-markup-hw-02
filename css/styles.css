@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif, Raleway;
+  font-family: "Roboto", sans-serif;
   color: black;
 }
 .link-contact {
@@ -18,7 +18,7 @@ body {
 .link-contact:focus {
   color: var(--brand-color);
 }
-.link-nav {
+.link-nav a {
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -26,8 +26,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link-nav:hover,
-.link-nav:focus {
+.link-nav a:hover,
+.link-nav a:focus {
   color: var(--brand-color);
 }
 .logo-first-color {
@@ -61,17 +61,23 @@ body {
   width: 696px;
 }
 .main-button {
-  color: white;
-  background-color: var(--brand-color);
+  color: #212121;
+  background-color: F5F4FA;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.main-button:hover {
+  color: white;
+  background-color: var(--brand-color);
 }
 .grey-rectangle {
   background: #2f303a;
@@ -83,6 +89,9 @@ body {
 }
 .hidden-title {
   display: none;
+}
+.main-txt {
+  margin-top: 94px;
 }
 .main-txt h3 {
   color: #212121;
@@ -102,6 +111,7 @@ body {
   width: 270px;
 }
 .section-title {
+  margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -109,6 +119,7 @@ body {
   color: #212121;
 }
 .about-us {
+  margin-top: 94px;
   background-color: #f5f4fa;
   padding: 10px;
   margin-bottom: 10px;
@@ -151,6 +162,9 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.logo-footer-div {
+  margin-top: 60px;
+}
 .logo-footer {
   text-decoration: none;
   font-family: Raleway;
@@ -169,4 +183,71 @@ body {
 .link-footer a:hover,
 .link-footer a:focus {
   color: var(--brand-color);
+}
+.link-footer li {
+  margin-top: 9px;
+}
+/* Portfolio site */
+.portfolio-button {
+  background-color: F5F4FA;
+  border: none;
+  border-radius: 4px;
+  height: 38px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  margin-top: 94px;
+}
+.portfolio-button:hover {
+  color: white;
+  background-color: var(--brand-color);
+}
+.portfolio-box li {
+  width: 370px;
+  height: 404;
+  background: #ffffff;
+  margin-top: 34px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #eeeeee;
+}
+.portfolio-box-desc {
+  width: 322px;
+  height: 70px;
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.portfolio-box-desc p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.project-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.portfolio-footer-margin {
+  margin-top: 94px;
 }
