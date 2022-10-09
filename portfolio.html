@@ -32,81 +32,95 @@
   <body>
     <!-- Header -->
     <header>
-      <a
-        class="logo logo-hoover-focus"
-        href="index.html"
-        target="_self"
-        ><span class="logo-first-color">Web</span><span class="logo-blk-color">Studio</span></a
-      >
-      <nav>
-        <ul class="hidden-dot link-nav">
-          <li>
-            <a href="#">Agencja</a>
-          </li>
+      <div class="nav-line">
+        <a
+          class="logo logo-hoover-focus"
+          href="index.html"
+          target="_self"
+          ><span class="logo-first-color">Web</span><span class="logo-blk-color">Studio</span></a
+        >
+        <nav>
+          <ul class="hidden-dot link-nav">
+            <li>
+              <a href="#">Agencja</a>
+            </li>
+            <li>
+              <a
+                href="portfolio.html"
+                target="_self"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="hidden-dot">
           <li>
             <a
-              href="portfolio.html"
-              target="_self"
-              >Portfolio</a
+              class="link-contact"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="#">Kontakt</a>
+            <a
+              class="link-contact"
+              href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="hidden-dot">
-        <li>
-          <a
-            class="link-contact"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a
-            class="link-contact"
-            href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Main content -->
     <main>
-      <section>
-        <button
-          class="portfolio-button"
-          type="button"
-        >
-          Wszystkie
-        </button>
-        <button
-          class="portfolio-button"
-          type="button"
-        >
-          Strony
-        </button>
-        <button
-          class="portfolio-button"
-          type="button"
-        >
-          Aplikacje
-        </button>
-        <button
-          class="portfolio-button"
-          type="button"
-        >
-          Dizajn
-        </button>
-        <button
-          class="portfolio-button"
-          type="button"
-        >
-          Marketing
-        </button>
-      </section>
-      <section>
+      <div>
+        <ul class="hidden-dot portfolio-btn-inline">
+          <li>
+            <button
+              class="portfolio-button"
+              type="button"
+            >
+              Wszystkie
+            </button>
+          </li>
+          <li>
+            <button
+              class="portfolio-button"
+              type="button"
+            >
+              Strony
+            </button>
+          </li>
+          <li>
+            <button
+              class="portfolio-button"
+              type="button"
+            >
+              Aplikacje
+            </button>
+          </li>
+          <li>
+            <button
+              class="portfolio-button"
+              type="button"
+            >
+              Dizajn
+            </button>
+          </li>
+          <li>
+            <button
+              class="portfolio-button"
+              type="button"
+            >
+              Marketing
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
         <ul class="hidden-dot portfolio-box">
           <li>
             <img
@@ -217,11 +231,11 @@
             </div>
           </li>
         </ul>
-      </section>
+      </div>
     </main>
     <!-- Footer -->
     <footer>
-      <section class="footer-box portfolio-footer-margin">
+      <div class="footer-box portfolio-footer-margin">
         <div class="logo-footer-div">
           <a
             class="logo-footer logo-hoover-focus"
@@ -241,7 +255,7 @@
             </li>
           </ul>
         </address>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
