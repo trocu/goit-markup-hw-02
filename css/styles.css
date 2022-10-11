@@ -3,8 +3,8 @@
   --light-txt-color: #757575;
   --grey-bkg: #2f303a;
   --light-grey-item: #f5f4fa;
-  --light-line: #eeeeee;
-  --white-item: #ffffff;
+  --light-line: #eee;
+  --white-item: #fff;
 }
 
 body {
@@ -131,7 +131,7 @@ body {
 .about-us h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
